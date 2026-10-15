@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "asOf": "2026-10-16",
+  "comment": "STT per 1 Apr 2026 revision. NSE exchange transaction charges updated to post-Mar 2026 schedule.",
+  "gstRate": 0.18,
+  "segments": {
+    "EQUITY_INTRADAY": {
+      "brokerageRate": 0.0003,
+      "brokerageMaxPerOrder": 20.0,
+      "sttBuy": 0.0,
+      "sttSell": 0.00025,
+      "excTransCharge": 0.0000307,
+      "sebiFee": 0.000001,
+      "stampDuty": 0.00003
+    },
+    "EQUITY_DELIVERY": {
+      "brokerageRate": 0.0,
+      "brokerageMaxPerOrder": 0.0,
+      "sttBuy": 0.001,
+      "sttSell": 0.001,
+      "excTransCharge": 0.0000307,
+      "sebiFee": 0.000001,
+      "stampDuty": 0.00015
+    },
+    "FUTURES": {
+      "brokerageRate": 0.0003,
+      "brokerageMaxPerOrder": 20.0,
+      "sttBuy": 0.0,
+      "sttSell": 0.0005,
+      "excTransCharge": 0.0000183,
+      "sebiFee": 0.000001,
+      "stampDuty": 0.00002
+    },
+    "OPTIONS": {
+      "brokerageFlat": 20.0,
+      "sttBuy": 0.0,
+      "sttSell": 0.0015,
+      "excTransCharge": 0.0003553,
+      "sebiFee": 0.000001,
+      "stampDuty": 0.00003
+    }
+  }
+}
